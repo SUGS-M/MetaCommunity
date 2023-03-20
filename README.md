@@ -1,5 +1,5 @@
 # MetaCommunity 
-#前端文件 
+#前端文件\ 
 根目录下文件(除server) \
 npm i \
 npm run dev\
