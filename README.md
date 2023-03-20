@@ -8,3 +8,8 @@ npm i\
 node app
 
 
+<video src="https://user-images.githubusercontent.com/88612717/226265353-bba3f28b-97ae-468a-b673-f6076b326436.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+
+
+https://user-images.githubusercontent.com/88612717/226265353-bba3f28b-97ae-468a-b673-f6076b326436.mp4
+
