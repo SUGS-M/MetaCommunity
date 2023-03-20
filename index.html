@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mulplayer</title>
+    <style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+
+    <style>
+      #blocker {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+      }
+      #instructions {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+    		
+  </head>
+  <body>
+    <div id="blocker">
+			<div id="instructions">
+				<p style="font-size:36px">
+					Click to play
+				</p>
+				<p>
+					Move: WASD<br/>
+					Look: MOUSE
+				</p>
+			</div>
+		</div>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script> 
+
+    <script>
+      const blocker = document.getElementById( 'blocker' );
+			const instructions = document.getElementById( 'instructions' );
+			instructions.addEventListener( 'click', function () {
+        instructions.style.display = 'none';
+        blocker.style.display = 'none';
+			} );
+    </script>
+    
+				
+
+  </body>
+</html>
